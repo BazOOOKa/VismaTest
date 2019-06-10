@@ -3,7 +3,7 @@
 	As a math idiot
 	I want to be told the sum of two numbers
 
-Scenario Outline: Add two numbers
+Scenario Outline: Check mandatory fields, email fields and blog links
 	When User navigate to Home Page
 	And User click on Apply button
 	Then User navigates to Application Page

@@ -71,13 +71,13 @@ namespace MyProject.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
+        [NUnit.Framework.DescriptionAttribute("Check mandatory fields, email fields and blog links")]
         [NUnit.Framework.TestCaseAttribute("visma school", null)]
         [NUnit.Framework.TestCaseAttribute("accounting documents", null)]
         [NUnit.Framework.TestCaseAttribute("average earnings", null)]
-        public virtual void AddTwoNumbers(string link, string[] exampleTags)
+        public virtual void CheckMandatoryFieldsEmailFieldsAndBlogLinks(string link, string[] exampleTags)
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, exampleTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check mandatory fields, email fields and blog links", null, exampleTags);
 #line 6
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
