@@ -126,7 +126,8 @@ namespace MyProject.Steps
                         ScenarioContext.Current.Get<string>("initialUrl").Should().NotBe(newUrl);
                         newUrl.Should().Contain("www.linkedin.com");
                         /* 
-                         After some changes at Visma Web site or in LindedIn Website now it's impossible to 
+                          There were 3 or 4 deployment on Visma.lv and now 
+                          now it's impossible to 
                          take a look on Visma Page in LinkedIn without authorization, I don't want to share here my credentials for that.   
                         */
 
