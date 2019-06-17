@@ -130,7 +130,8 @@
     </Compile>
     <Compile Include="PageObjects\ApplicationPage.cs" />
     <Compile Include="PageObjects\BlogPage.cs" />
-    <Compile Include="PageObjects\EmergenPage.cs" />
+    <Compile Include="PageObjects\EurofficeHomePage.cs" />
+    <Compile Include="PageObjects\EurofficeRegistrationPage.cs" />
     <Compile Include="PageObjects\HomePage.cs" />
     <Compile Include="PageObjects\SocialMediaPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -148,9 +149,10 @@
     </Compile>
     <Compile Include="Steps\ApplicationPageSteps.cs" />
     <Compile Include="Steps\CommonSteps.cs" />
-    <Compile Include="Steps\EmergenSteps.cs" />
+    <Compile Include="Steps\EurofficeHomePageSteps.cs" />
     <Compile Include="Steps\HomePageSteps.cs" />
     <Compile Include="Steps\Hooks.cs" />
+    <Compile Include="Steps\RegistrationPageSteps.cs" />
     <Compile Include="Utils\Driver.cs" />
     <Compile Include="Utils\Extension.cs" />
     <Compile Include="Utils\Utilities.cs" />
