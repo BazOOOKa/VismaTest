@@ -118,6 +118,11 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\EmergenTest.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmergenTest.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\Test.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -125,6 +130,7 @@
     </Compile>
     <Compile Include="PageObjects\ApplicationPage.cs" />
     <Compile Include="PageObjects\BlogPage.cs" />
+    <Compile Include="PageObjects\EmergenPage.cs" />
     <Compile Include="PageObjects\HomePage.cs" />
     <Compile Include="PageObjects\SocialMediaPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -142,6 +148,7 @@
     </Compile>
     <Compile Include="Steps\ApplicationPageSteps.cs" />
     <Compile Include="Steps\CommonSteps.cs" />
+    <Compile Include="Steps\EmergenSteps.cs" />
     <Compile Include="Steps\HomePageSteps.cs" />
     <Compile Include="Steps\Hooks.cs" />
     <Compile Include="Utils\Driver.cs" />
@@ -151,6 +158,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Features\EmergenTest.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>EmergenTest.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\Test.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Test.feature.cs</LastGenOutput>
