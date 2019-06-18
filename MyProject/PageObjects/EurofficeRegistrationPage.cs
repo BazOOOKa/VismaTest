@@ -35,5 +35,8 @@ namespace MyProject.PageObjects
 
         [FindsBy(How = How.CssSelector, Using = "span[for='LoginDetails_Email']")]
         public IWebElement IncorrectEmailNotification { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = ".signIn__register--personal")]
+        public IWebElement RegisrationAsAPerson { get; set; }
     }
 }

@@ -30,7 +30,7 @@ namespace MyProject.Steps
             {
                 switch (row["ItemList"].ToLower())
                 {
-                    case "name":
+                    case "user name":
                         registrationPage.UserName.Clear();
                         registrationPage.UserName.SendKeys(row["Value"]);
                         break;
@@ -56,6 +56,13 @@ namespace MyProject.Steps
                 }
             }
         }
+
+        [When(@"User clicks to register as a personal Customer")]
+        public void WhenUserClicksToRegisterAsAPersonalCustomer()
+        {
+            registrationPage.RegisrationAsAPerson.Click();
+        }
+
 
         [Then(@"User can see wrong email notification")]
         public void ThenUserCanSeeWrongEmailNotification()

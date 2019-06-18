@@ -99,12 +99,14 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("User navigate to EurOffice Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
  testRunner.And("Click On Registration Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 11
+ testRunner.And("User clicks to register as a personal Customer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "ItemList",
                         "Value"});
             table1.AddRow(new string[] {
-                        "UserName",
+                        "User Name",
                         "Ildar"});
             table1.AddRow(new string[] {
                         "User LastName",
@@ -115,9 +117,9 @@ this.ScenarioInitialize(scenarioInfo);
             table1.AddRow(new string[] {
                         "User Password",
                         "blablabla123"});
-#line 11
+#line 12
  testRunner.Then("User fills mandatory fields on Registration Page", ((string)(null)), table1, "Then ");
-#line 17
+#line 18
  testRunner.And("User can see wrong email notification", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();

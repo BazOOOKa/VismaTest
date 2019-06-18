@@ -8,9 +8,10 @@ Scenario: Check User cannot choose Reward without authorization into the system
 Scenario: Check email field 
 	When User navigate to EurOffice Home Page
 	And Click On Registration Button
+	And User clicks to register as a personal Customer
 	Then User fills mandatory fields on Registration Page
 	| ItemList          | Value        |
-	| UserName          | Ildar        |
+	| User Name         | Ildar        |
 	| User LastName     | Gataullin    |
 	| User EmailAddress | igataullin00 |
 	| User Password     | blablabla123 |
